@@ -7,7 +7,7 @@ def balanced_string_split(s)
     if stack.empty?
       stack << c
     elsif c != stack[-1]
-      stack.chop!
+      stack.chop!1
     else
       stack << c
     end
